@@ -8,7 +8,9 @@ namespace PenulisStream_BesiBerani
         static void Main(string[] args)
         {
             Flobbo f = new Flobbo("biru kuning");
+
             StreamWriter aax = f.Snobbo();
+
             f.Blobbo(f.Blobbo(f.Blobbo(aax),aax), aax);
 
         }
