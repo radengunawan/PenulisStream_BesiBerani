@@ -21,7 +21,7 @@ namespace PenulisStream_BesiBerani
             //var pembaca = new StreamReader($"{volder}{Path.DirectorySeparatorChar}{the_address}");
             //var penulis = new StreamWriter($"{volder}{Path.DirectorySeparatorChar}{destination}mailToCaptainA.txt");
             var pembaca = new StreamReader($"{the_address}");
-            var 作家 = new StreamWriter($"{destination}mailToCaptainA_Chineze_Code.txt");
+            var 作家 = new StreamWriter($"{destination}mailToCaptainA_Chineze_Code2.txt");
 
             作家.WriteLine("To: CaptainAmazing@objectville.net");
             作家.WriteLine("From: Commissioner@objectville.net");

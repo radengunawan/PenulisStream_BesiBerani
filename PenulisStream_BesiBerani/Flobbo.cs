@@ -17,10 +17,11 @@ namespace PenulisStream_BesiBerani
         }
 
         public static string gen_address = "C:\\Users\\sendr\\Documents\\Experiment_Result\\";
-        public static string file_name = "macaw2";
+        public static string file_name = "macaw3";
         public static string file_extension = ".txt";
 
-        public string full_path = gen_address + file_name + file_extension;
+        //public string full_path = gen_address + file_name + file_extension;
+        public string full_path = $"{gen_address}{file_name}{file_extension}";
 
 
         //Method #1
