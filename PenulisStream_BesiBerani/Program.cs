@@ -21,23 +21,23 @@ namespace PenulisStream_BesiBerani
             //var pembaca = new StreamReader($"{volder}{Path.DirectorySeparatorChar}{the_address}");
             //var penulis = new StreamWriter($"{volder}{Path.DirectorySeparatorChar}{destination}mailToCaptainA.txt");
             var pembaca = new StreamReader($"{the_address}");
-            var penulis = new StreamWriter($"{destination}mailToCaptainA.txt");
+            var 作家 = new StreamWriter($"{destination}mailToCaptainA_Chineze_Code.txt");
 
-            penulis.WriteLine("To: CaptainAmazing@objectville.net");
-            penulis.WriteLine("From: Commissioner@objectville.net");
-            penulis.WriteLine("Subject: Can you save the day... again?");
-            penulis.WriteLine();
-            penulis.WriteLine("We’ve discovered the Swindler’s terrible plan:");
+            作家.WriteLine("To: CaptainAmazing@objectville.net");
+            作家.WriteLine("From: Commissioner@objectville.net");
+            作家.WriteLine("Subject: Can you save the day... again?");
+            作家.WriteLine();
+            作家.WriteLine("We’ve discovered the Swindler’s terrible plan:");
 
             while (!pembaca.EndOfStream) {
                 var lineFromThePlan = pembaca.ReadLine();
-                penulis.WriteLine($"The plan -> {lineFromThePlan}");
+                作家.WriteLine($"The plan -> {lineFromThePlan}");
             }
 
-            penulis.WriteLine();
-            penulis.WriteLine("Can you help us?");
+            作家.WriteLine();
+            作家.WriteLine("Can you help us?");
 
-            penulis.Close();
+            作家.Close();
             pembaca.Close();
 
 
