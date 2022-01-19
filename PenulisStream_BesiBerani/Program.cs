@@ -7,7 +7,10 @@ namespace PenulisStream_BesiBerani
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Flobbo f = new Flobbo("biru kuning");
+            StreamWriter aax = f.Snobbo();
+            f.Blobbo(f.Blobbo(f.Blobbo(aax),aax), aax);
+
         }
     }
 }
